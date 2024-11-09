@@ -10,7 +10,7 @@ function TodoList() {
     fetchTodos();
   }, []);
 
-  
+  console.log("test")
   const fetchTodos = async () => {
     try {
       const response = await axios.get("http://localhost:3001/todos");
